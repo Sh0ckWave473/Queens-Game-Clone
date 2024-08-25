@@ -1,0 +1,28 @@
+.grid {
+  display: flex;
+  margin-inline: auto;
+  margin-block: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50vh;
+  width: 50vh;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+
+.square {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
